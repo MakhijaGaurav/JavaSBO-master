@@ -1,0 +1,15 @@
+#stackPane{
+    -fx-background: #5fae57;
+    -fx-font-family: cursive;
+    -fx-font-size: 20px;
+}
+
+.btnOperation{
+    -fx-opacity: 1;
+    -fx-background-color: #17273b;
+    -fx-text-fill: white;
+}
+.labelTitle{
+     -fx-alignment: center;
+     -fx-font-weight: bold;
+ }

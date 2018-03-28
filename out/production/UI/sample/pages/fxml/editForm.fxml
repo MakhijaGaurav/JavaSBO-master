@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:id="myRoot" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pages.EditUser">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" >
+    <children>
+        <TextField layoutX="14.0" layoutY="24.0" prefHeight="31.0" prefWidth="397.0" />
+        <Button layoutX="430.0" layoutY="24.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="141.0" text="Search" />
+        <ListView  fx:id="listNameView" layoutX="19.0" layoutY="85.0" prefHeight="295.0" prefWidth="559.0" />
+    </children>
+</AnchorPane>
+</StackPane>

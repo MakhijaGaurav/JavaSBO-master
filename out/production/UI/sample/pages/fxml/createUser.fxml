@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane id="stackPane" fx:id="myRoot" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../../css/form.css" fx:controller="sample.pages.CreateUser">
+<children>
+    <AnchorPane id="stackPane" prefHeight="765.0" prefWidth="1020.0">
+    <children>
+            <Label layoutX="400.0" layoutY="-20.0" prefHeight="80.0" prefWidth="200.0" styleClass="labelTitle" text="S.B.O" />
+            <Label layoutX="30.0" layoutY="30.0" prefHeight="80.0" prefWidth="250.0" styleClass="labelTitle" text="Personal Details:" />
+            <Label layoutX="327.0" layoutY="61.0" text="Spectacle Details" />
+            <TextField fx:id="nameID" layoutX="30.0" layoutY="100.0" prefHeight="40.0" prefWidth="250.0" promptText="Name" />
+            <TextField fx:id="dobID" layoutX="30.0" layoutY="160.0" prefHeight="40.0" prefWidth="250.0" promptText="Date Of Birth" />
+            <TextArea fx:id="addressID" layoutX="30.0" layoutY="220.0" prefHeight="85.0" prefWidth="250.0" promptText="Address" />
+            <TextField fx:id="mailID" layoutX="30.0" layoutY="325.0" prefHeight="40.0" prefWidth="250.0" promptText="E-mail Address" />
+            <DatePicker fx:id="dateID" layoutX="30.0" layoutY="385.0" prefHeight="40.0" prefWidth="250.0" promptText="Date" />
+            <TextField fx:id="frameID" layoutX="325.0" layoutY="100.0" prefHeight="40.0" prefWidth="250.0" promptText="Frame" />
+            <TextField fx:id="glassesID" layoutX="324.0" layoutY="160.0" prefHeight="40.0" prefWidth="250.0" promptText="Glasses" />
+            <Label layoutX="667.0" layoutY="30.0" prefHeight="80.0" prefWidth="250.0" styleClass="labelTitle" text="Other Details:" />
+            <TextArea fx:id="detailsID" layoutX="657.0" layoutY="92.0" prefHeight="125.0" prefWidth="250.0" promptText="Remarks" />
+
+            <Label layoutX="327.0" layoutY="260.0" text="Right Eye" />
+            <TextField fx:id="RIGHTSPHID" layoutX="323.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="SPH" />
+            <TextField fx:id="RIGHTCYLID" layoutX="393.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="CYL" />
+            <TextField fx:id="RIGHTAXISID" layoutX="463.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="AXIS" />
+            <TextField fx:id="RIGHTADDID" layoutX="323.0" layoutY="316.0" prefHeight="30.0" prefWidth="210.0" promptText="ADD" />
+            <TextField fx:id="RIGHTPDID" layoutX="323.0" layoutY="346.0" prefHeight="30" prefWidth="210" promptText="PD" />
+
+            <Label layoutX="628.0" layoutY="260.0" text="Left Eye" />
+            <TextField fx:id="LEFTSPHID" layoutX="623.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="SPH" />
+            <TextField fx:id="LEFTCYLID" layoutX="693.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="CYL" />
+            <TextField fx:id="LEFTAXISID" layoutX="763.0" layoutY="286.0" prefHeight="30.0" prefWidth="70.0" promptText="AXIS" />
+            <TextField fx:id="LEFTADDID" layoutX="623.0" layoutY="316.0" prefHeight="30.0" prefWidth="210.0" promptText="ADD" />
+            <TextField fx:id="LEFTPDID" layoutX="623.0" layoutY="346.0" prefHeight="30" prefWidth="210" promptText="PD" />
+
+            <Label layoutX="330.0" layoutY="449.0" text="Right Eye Contact Lens" />
+            <TextField fx:id="RIGHTCONTACTSPHID" layoutX="330.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="SPH" />
+            <TextField fx:id="RIGHTCONTACTCYLID" layoutX="400.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="CYL" />
+            <TextField fx:id="RIGHTCONTACTAXISID" layoutX="470.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="AXIS" />
+
+
+            <Label layoutX="630.0" layoutY="447.0" text="Left Eye Contact Lens" />
+            <TextField fx:id="LEFTCONTACTSPHID" layoutX="630.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="SPH" />
+            <TextField fx:id="LEFTCONTACTCYLID" layoutX="700.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="CYL" />
+            <TextField fx:id="LEFTCONTACTAXISID" layoutX="770.0" layoutY="470.0" prefHeight="30.0" prefWidth="70.0" promptText="AXIS" />
+
+            <Button fx:id="saveID" layoutX="310.0" layoutY="663.0" mnemonicParsing="false" onAction="#getValues" prefHeight="30.0" prefWidth="100.0" styleClass="btnOperation" text="Save" />
+            <Button layoutX="430.0" layoutY="662.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="btnOperation" text="Print" />
+            <Button layoutX="550.0" layoutY="661.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="btnOperation" text="Cancel" />
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>

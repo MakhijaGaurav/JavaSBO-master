@@ -1,0 +1,5 @@
+/*Remove all the controls*/
+
+.pagination-control {
+    visibility: hidden;
+}
